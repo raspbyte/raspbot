@@ -1,0 +1,28 @@
+{
+  "name": "raspbot",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Personal Discord app",
+  "main": "app.js",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "register": "node commands.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Christian Fedell",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/voice": "^0.19.2",
+    "discord.js": "^14.26.4",
+    "dotenv": "^16.0.3",
+    "ffmpeg-static": "^5.3.0",
+    "opusscript": "^0.0.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
