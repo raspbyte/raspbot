@@ -273,7 +273,10 @@ client.on(Events.MessageCreate, async (message) => {
   for (const [phrase, offset] of [["im ", 3], ["i'm ", 4], ["i am ", 5]]) {
     const idx = lower.indexOf(phrase);
 
-    if (idx !== -1) start = Math.min(start, idx + offset);
+    if (idx === 0) {
+      start = offset;
+      break;
+    }
   }
   if (start !== Infinity) {
     const rest = message.content.slice(start).trim();
