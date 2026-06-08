@@ -59,3 +59,9 @@ While a bully target is set, the bot reacts to their messages with a random set 
 
 - Built on top of [Discord's sample app](https://github.com/discord/discord-example-app)
 - Bully command inspired by [Joon on YouTube](https://www.youtube.com/watch?v=JOuzkiOBuV4) — [code](https://gist.github.com/JoonTorareta/c8171761d21f5c055b2f70834208aee1)
+
+---
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
